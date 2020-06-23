@@ -1,0 +1,41 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+.play-btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.background-img {
+  min-height: 100%;
+  min-width: 720px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .background-img {
+    left: calc((100vw - 720px) / 2);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .background-img {
+    left: 0;
+  }
+}
+
+.secret-button {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 150px;
+}

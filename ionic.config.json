@@ -1,0 +1,7 @@
+{
+  "name": "reader",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

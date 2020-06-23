@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "reader",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/vasniktel/.local/share/JetBrains/Toolbox/apps/AndroidStudio/ch-1/193.6264773/bin/studio.sh"
+}
